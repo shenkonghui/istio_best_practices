@@ -34,8 +34,9 @@ mv istioctl /usr/local/bin/
 
 ## 安装
 
+最全安装
+
 ```text
-# 最全安装
 istioctl manifest apply --set profile=demo
 ```
 
@@ -50,3 +51,12 @@ istioctl manifest apply --set addonComponents.Grafana.enabled=true
 ```text
 istioctl manifest generate| kubectl delete -f -
 ```
+
+
+
+## 检测
+
+```
+istioctl
+```
+
