@@ -31,7 +31,6 @@ static_resources:
             virtual_hosts:
             - name: local_service
               domains: ["*"]
-              ## 路由
               routes:
               - match: { prefix: "/" }
                 route: { cluster: some_service }
