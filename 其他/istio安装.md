@@ -60,3 +60,16 @@ istioctl manifest generate| kubectl delete -f -
 istioctl
 ```
 
+
+
+
+
+## 问题
+
+1.6 安装出现下面问题
+
+Detected that your cluster does not support third party JWT authentication. Falling back to less secure first party JWT. See https://istio.io/docs/ops/best-practices/security/#configure-third-party-service-account-tokens for details.
+
+
+
+1.6不推荐使用k8s自身的serviceaccount，推荐使用第三方的，但是还是可以安装过去

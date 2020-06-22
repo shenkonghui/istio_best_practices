@@ -6,7 +6,9 @@
 
 
 
+## 架构
 
+![安全架构](.assets/arch-sec.svg)
 
 ## 授权
 
