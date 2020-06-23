@@ -9,6 +9,8 @@ https://operatorhub.io/operator/kiali
 ## Install on Kubernetes
 
 1. 安装operator生命周期管理器（OLM），该工具可帮助管理群集上运行的operator。
+
+   olm就类似于helm chart，可以帮助我们从operator.io下载operator包，并进行管理
  ```yaml
    curl -sL https://github.com/operator-framework/operator-lifecycle-manager/releases/download/0.15.1/install.sh | bash -s 0.15.1
  ```
