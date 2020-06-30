@@ -1,0 +1,2 @@
+#!/bin/bash
+book sm --title "istio最佳实践"   --ignores "相关代码"

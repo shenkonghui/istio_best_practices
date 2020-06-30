@@ -39,4 +39,4 @@
 - 源码解析
   * [Istio Ca](源码解析/istio_ca.md)
   * [Pilot Agent](源码解析/pilot-agent.md)
-  * [Pilot Discovery](
+  * [Pilot Discovery](源码解析/pilot-discovery.md)
