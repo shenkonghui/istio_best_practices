@@ -10,15 +10,11 @@
 
 
 
-
-
 ## WebAssembly Hub
 
 Wasm的好处之一是能够用多种语言编写模块。Solo.io与Google之间的合作为以C ++，Rust和AssemblyScript编写的Envoy过滤器提供了开箱即用的支持。我们将继续增加对更多语言的支持。
 
 Wasm扩展使用部署它们的Envoy代理内的应用程序二进制接口（ABI）。WebAssembly Hub在Envoy，Istio和Gloo之间提供了强大的ABI版本保证，以防止不可预测的行为和错误。您只需担心的是编写扩展代码。
-
-
 
 
 
