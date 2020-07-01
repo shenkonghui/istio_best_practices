@@ -29,9 +29,7 @@
       * [性能](其他/性能.md)
       * [envoy配置](其他/envoy配置.md)
       * [istio安装](其他/istio安装.md)
-      * [Istioctl](其他/istioctl.md)
       * [Kiali Operator](其他/kiali-operator.md)
-      * [Untitled](其他/Untitled.md)
     - 问题收集
       * [http策略不生效](问题收集/http策略不生效.md)
       * [Kiali Permission Denied In Openshift](问题收集/kiali_permission_denied_in_openshift.md)
@@ -40,3 +38,35 @@
       * [Istio Ca](源码解析/istio_ca.md)
       * [Pilot Agent](源码解析/pilot-agent.md)
       * [Pilot Discovery](源码解析/pilot-discovery.md)
+    - 诊断
+      * [Istioctl](诊断/istioctl.md)
+
+
+
+
+
+​	随着分布式系统的复杂性的提高，服务管理的难度也越来越高，服务治理是目前分布式系统管理的一个重要关注点，前几年service mech的横空出世，给服务治理带来了希望，而istio是目前最流行的service mech框架之一。
+
+​	用一句话概括istio，就是“连接、安全加固、控制和观察服务的开放平台”
+
+istio提供如下应用场景：
+
+1. 流量管理：可以自由的控制服务之间的调用流量，轻松实现灰度升级、AB测试、混沌工程等功能。
+
+2. 安全加固：可以保证服务之间的安全调用，提高了分布式系统的安全性。
+
+3. 可观察性：提供日志、监控、调用链等观察方式，可以快速定位庞大的微服务系统中出现的异常，更好地观察和治理服务。
+
+4. 控制性：应用用户定义的策略，保证资源在消费者中公平分配。
+
+ 
+
+ 
+
+istio相对于其他服务治理框架有如下特定：
+
+1. 无侵入性：相对于spring cloud与dubbo等流行框架，istio可以以无侵入式的方式接入，无论你的应用是基于java，python还是golang编写。
+
+2. 完美兼容容器和kubernetes：kubernetes是目前主流的容器云平台，配合istio，可以补充kubernetes作为微服务框架所缺少的部分功能(熔断、限流等)，同时加强集群的网络管理和安全防御功能
+
+目前istio还在快速迭代更新中，在新的版本中对架构进行优化，提高可扩展性，同时提高了对虚拟机的支持，可以更好的兼容传统应用，为企业/政府机关上云提供了更可靠的支持。

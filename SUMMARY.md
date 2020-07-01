@@ -29,9 +29,7 @@
   * [性能](其他/性能.md)
   * [envoy配置](其他/envoy配置.md)
   * [istio安装](其他/istio安装.md)
-  * [Istioctl](其他/istioctl.md)
   * [Kiali Operator](其他/kiali-operator.md)
-  * [Untitled](其他/Untitled.md)
 - 问题收集
   * [http策略不生效](问题收集/http策略不生效.md)
   * [Kiali Permission Denied In Openshift](问题收集/kiali_permission_denied_in_openshift.md)
@@ -40,3 +38,5 @@
   * [Istio Ca](源码解析/istio_ca.md)
   * [Pilot Agent](源码解析/pilot-agent.md)
   * [Pilot Discovery](源码解析/pilot-discovery.md)
+- 诊断
+  * [Istioctl](诊断/istioctl.md)

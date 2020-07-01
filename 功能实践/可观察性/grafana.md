@@ -1,8 +1,8 @@
 # grafana
 
+## 官方仪表盘
 
-
-导入最新的grafana仪表盘。默认已经包含
+导入最新的grafana仪表盘。默认安装已经包含
 
 ```
 # Address of Grafana
@@ -29,3 +29,10 @@ for DASHBOARD in 7639 11829 7636 7630 7642 7645; do
 done
 ```
 
+## 自己编写的仪表盘
+
+在src/grafana目录
+
+### 流量管理
+
+![image-20200701112129436](.assets/image-20200701112129436.png)
