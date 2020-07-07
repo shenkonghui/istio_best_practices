@@ -1,7 +1,13 @@
 apiVersion: kiali.io/v1alpha1
 kind: Kiali
 metadata:
-  name: kiali
+  name: kiali-open
 spec:
   deployment:
-    image_name:  quay.io/kiali/kiali:v1.18.0
+    image_name: quay.io/kiali/kiali
+    image_version: v1.18.0 
+    excluded_workloads:
+    - "CronJob"
+    - "DeploymentConfig"
+    - "Job"
+    - "ReplicationController"

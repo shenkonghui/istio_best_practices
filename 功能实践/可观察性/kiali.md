@@ -20,8 +20,17 @@ kiali是istio官方提供的一款分布式追踪的的可视化工具
 
    kiali支持以rbac token方式进行登录，可以自定义创建创建只读、管理员等权限的serviceaccount/user
 
-3. openshift 
+3. openshift
 
 4. ldap
 
+
+
+## 问题
+
+使用token登录，非常短的时间就过期,  提示
+
+```
+Your session has expired or was terminated in another window
+```
 

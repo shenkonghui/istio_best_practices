@@ -1,2 +1,3 @@
 #!/bin/bash
-book sm --title "istio最佳实践"   --ignores "src"
+book sm --title "istio最佳实践"   --ignores "src,node_modules,_book"
+gitbook pdf . istio最佳实践.pdf

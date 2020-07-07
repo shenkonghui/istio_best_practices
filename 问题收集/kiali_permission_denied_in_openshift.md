@@ -30,7 +30,7 @@ kiali版本1.19
 
 openshift 中的 scc，设置了用户范围为1014010000-1014019999，pod使用service account，pod启动的用户未scc最小范围也就是1014010000。而dockerfile中设置了文件归属用户kiali(uid为1000)，uid不匹配，所以提示没有权限
 
-## 解决方案 
+## 解决方案
 
 修改kiali镜像
 
