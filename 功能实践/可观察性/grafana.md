@@ -2,7 +2,31 @@
 
 ## 官方仪表盘
 
-导入最新的grafana仪表盘。默认安装已经包含
+默认安装已经包含如下仪表盘
+
+- Istio Control Plane Dashboard 
+
+  控制平面的监控信息、包括控制面的硬件资源使用情况(内存、cpu、磁盘)；pilot的监控指标；XDS的请求指标等
+
+- Istio Mesh Dashboard 
+
+  网络的请求状态，包括4xx、5xx的统计；负载的http/GRPC/TCP请求情况
+
+- Istio Mixer Dashboard 
+
+  Mixer的监控指标，包括mix的硬件资源使用,适配器和配置等等
+
+- Istio Performance Dashboard 
+
+  性能监控指标，包括组件硬件资源使用情况，代理硬件资源使用情况等等
+
+- Istio Service Dashboard 
+
+- Istio Workload Dashboard 
+
+
+
+也可以提供以下脚本导入
 
 ```
 # Address of Grafana
@@ -28,6 +52,8 @@ for DASHBOARD in 7639 11829 7636 7630 7642 7645; do
     echo -e "\nDone\n"
 done
 ```
+
+
 
 ## 自己编写的仪表盘
 

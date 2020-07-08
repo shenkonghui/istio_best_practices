@@ -1,12 +1,14 @@
 # istio最佳实践
 - # 目录
-    - 功能实践
+    - [功能实践](功能实践/README.md)
+      
       - [安全](功能实践/安全/README.md)
         * [认证](功能实践/安全/认证.md)
         * [授权](功能实践/安全/授权.md)
-      - 工具
+      - [策略](功能实践/策略/README.md)
+      - [工具](功能实践/工具/README.md)
         * [Fortio](功能实践/工具/fortio.md)
-      - 可观察性
+      - [可观察性](功能实践/可观察性/README.md)
         * [指标](功能实践/可观察性/指标.md)
         * [Grafana](功能实践/可观察性/grafana.md)
         * [Kiali](功能实践/可观察性/kiali.md)
@@ -18,27 +20,42 @@
         * [5.混沌工程-流量镜像与故障注入](功能实践/流量管理/5.混沌工程-流量镜像与故障注入.md)
         * [6.出口控制](功能实践/流量管理/6.出口控制.md)
         * [7.出口网关](功能实践/流量管理/7.出口网关.md)
-      - 生产环境实践
+      - [其他](功能实践/其他/README.md)
+        * [sidecar注入](功能实践/其他/sidecar注入.md)
+      - [生产环境实践](功能实践/生产环境实践/README.md)
         * [访问webUi](功能实践/生产环境实践/访问webUi.md)
         * [数据持久化](功能实践/生产环境实践/数据持久化.md)
+      
     - 扩展
+    
       * [Mixer](扩展/Mixer.md)
       * [Web Assembly](扩展/WebAssembly.md)
-    - 其他
+    
+    - [其他](其他/README.md)
+    
+      - [Kiali 使用指南](其他/Kiali 使用指南/README.md)
+    
       * [发展历程](其他/发展历程.md)
       * [性能](其他/性能.md)
       * [envoy配置](其他/envoy配置.md)
       * [istio安装](其他/istio安装.md)
       * [Kiali Operator](其他/kiali-operator.md)
-    - 问题收集
+    
+    - [问题收集](问题收集/README.md)
+    
       * [http策略不生效](问题收集/http策略不生效.md)
       * [Kiali Permission Denied In Openshift](问题收集/kiali_permission_denied_in_openshift.md)
       * [Sidecar 503](问题收集/sidecar_503.md)
+    
     - 源码解析
+    
       * [Istio Ca](源码解析/istio_ca.md)
+      * [Kiali](源码解析/kiali.md)
       * [Pilot Agent](源码解析/pilot-agent.md)
       * [Pilot Discovery](源码解析/pilot-discovery.md)
-    - 诊断
+    
+    - [诊断](诊断/README.md)
+    
       * [Istioctl](诊断/istioctl.md)
 
 
